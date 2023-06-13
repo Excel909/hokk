@@ -9,6 +9,7 @@ body{
 *{
     box-sizing: border-box;
     scroll-behavior: smooth;
+    line-height: 1.5;
 }
 
 #container{
@@ -774,6 +775,9 @@ button:focus {outline: none;}
     font-family: candara;
     padding: 20px;
     margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
 }
 
 .med-text{
