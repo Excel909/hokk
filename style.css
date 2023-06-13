@@ -132,7 +132,7 @@ body{
     left: 0px;
     z-index: 1;
     background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     line-height: 1.3;
 }
 
@@ -236,6 +236,7 @@ body{
     margin-top: 10px;
     height: 70px;
     box-shadow: 0px 0px 2px #ccc;
+    color:white;
 }
 
 .splin{
@@ -353,7 +354,7 @@ body{
 }
 
 .contact{
-    width: 40%;
+    width: 50%;
     height: fit-content;
     /* background-color: red; */
     border-radius: 10px;
@@ -362,11 +363,35 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0px 0px 10px #ccc;
+    /* box-shadow: 0px 0px 10px #ccc; */
     font-family: candara;
+    border: 1px solid lightgrey;
     text-transform: capitalize;
     padding: 20px;
 }
+
+.con-split{
+    display: flex;
+    width: 80%;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.con-icon{
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 100pt;
+    color: darkred;
+}
+
+.con{
+    margin-top: 100px;
+}
+
 
 input[type="text"],
 input[type="tel"],
@@ -449,7 +474,7 @@ input[type="email"]{
     margin: auto;
     margin-top:50px;
     height: fit-content;
-    font-family: arial ;
+    font-family: candara;
     position: relative;
     /* left:30px; */
 }
@@ -849,6 +874,7 @@ button:focus {outline: none;}
 
 .med-nav{
     display: block;
+    border-bottom: 1px solid lightgrey;
 }
 
 .inn{
@@ -921,15 +947,16 @@ button:focus {outline: none;}
 }
 
 .split{
-    width: 95%;
+    width: 90%;
     margin: auto;
-    margin-top: 20px;
-    display: flex;
+    margin-top: 40px;
+    display: block;
     height: 70vh;
+
 }
 
 .l{
-    width:60%;
+    width:100%;
     height: 80%;
 }
 
@@ -939,11 +966,12 @@ button:focus {outline: none;}
 }
 
 .r{
-    width: 40%;
+    width: 100%;
     height: 100%;
     /* background-color: orangered; */
     overflow-y: scroll;
     display: block;
+    margin-top: 50px;
 }
 
 .show{
@@ -952,6 +980,8 @@ button:focus {outline: none;}
     margin-top: 10px;
     height: 70px;
     box-shadow: 0px 0px 2px #ccc;
+    background-color: white;
+    color: white;
 }
 
 .splin{
@@ -1014,16 +1044,19 @@ button:focus {outline: none;}
 }
 
 .vid-logo{
-    padding: 20px;
+    padding: 10px;
     font-family: arial;
     font-size: 20pt;
     font-weight: 600;
     color: darkred;
-    width: 20%;
+    width: 70%;
     margin: 20px;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 0px 0px 5px #ccc;
+    box-shadow: none;
+    border:1px solid lightgrey;
+    margin: auto;
+    margin-top: 20px;
 }
 
 
@@ -1129,14 +1162,15 @@ input[type="email"]{
 }
 
 .submit{
-    width: 40%;
+    width: 55%;
     padding: 15px;
     border: none;
     border-radius: 5px;
     background-color: darkred;
     color: white;
-    margin-left: 25%;
+    margin-left: 20%;
     margin-top: 20px;
+
 }
 
 .box-i{
@@ -1146,6 +1180,23 @@ input[type="email"]{
 .youp{
     color:red;
 }
+
+.con-split{
+    display: block;
+    width: 100%;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.con-icon{
+    display: none;
+}
+
+.con{
+    margin-top: 100px;
+}
+
+
 
 
 
@@ -1275,4 +1326,7 @@ input[type="email"]{
     margin-top: 6px;
 }
 
+.con-2{
+    margin-top: 500px;
+}
 }
