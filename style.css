@@ -447,7 +447,13 @@ input[type="email"]{
     display: none;
 }
 
+.foot-det{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.foot-det i{
+    color: red;
+}
 
 
 
@@ -769,7 +775,7 @@ button:focus {outline: none;}
 }
 
 .extra{
-    height:40vh;
+    height:35vh;
     width: 90%;
     display: none;
     font-family: candara;
@@ -777,7 +783,7 @@ button:focus {outline: none;}
     margin: auto;
     align-items: center;
     justify-content: space-around;
-    display: flex;
+    
 }
 
 .med-text{
@@ -1550,4 +1556,13 @@ button:focus {outline: none;}
     font-weight: normal;
     color:#222;
 }
+
+.bef{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    font-size: 20pt;
+}
+
+
 }
